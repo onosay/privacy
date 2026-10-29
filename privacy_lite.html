@@ -119,6 +119,7 @@ footer{
   color:var(--muted);
   font-size:0.82rem;
 }
+mark{background:#fff176;padding:0 .2em}
 </style>
 </head>
 <body>
@@ -132,7 +133,7 @@ footer{
   <section id="tr">
     <span class="tag">Gizlilik Politikası</span>
     <h1>Convert from/to PDF Lite</h1>
-    <p class="meta">Son güncelleme: 3 Ekim 2026 · Geliştirici: Onur Karadeniz</p>
+    <p class="meta">Son güncelleme: 29 Ekim 2026 · Geliştirici: Onur Karadeniz</p>
     <p class="lede">Bu sayfa, "Convert from/to PDF Lite" (PDF Araç Kutusu Lite, paket adı <code>com.okaradeniz.pdfaraclari.lite</code>) Android uygulamasının hangi verileri işlediğini, hangilerini işlemediğini ve neden işlediğini açıklar. Lite, ücretsiz ve reklam destekli ayrı bir uygulamadır.</p>
 
     <h2>Kısaca</h2>
@@ -142,6 +143,9 @@ footer{
       <p>🔒 Hesap, üyelik, abonelik yok. Kendi sunucularımızda sizi tanımlayan hiçbir veri tutmuyoruz.</p>
     </div>
 
+    <h2>Veri sorumlusu</h2>
+    <p>Onur Karadeniz — Hürriyet Mahallesi, Şehit Nusret Mandacı Sokak 3/1, Süleymanpaşa / Tekirdağ — <a href="mailto:support@okaradeniz.com">support@okaradeniz.com</a></p>
+
     <h2>1. Dosyalarınız ve içerikleriniz</h2>
     <p>Resimden PDF'e, PDF'ten resme, Word'den PDF'e, PDF'ten Word'e dönüştürme ve kamerayla belge tarama işlemlerinin tamamı cihazınızda, uygulamanın kendi içinde gerçekleşir. Seçtiğiniz dosyalar ve ürettiğiniz çıktılar internete gönderilmez, bir sunucuya yüklenmez, bizim tarafımızdan görüntülenmez veya saklanmaz. Bir dosyayı nereye kaydedeceğinize (cihaz, paylaşım vb.) yalnızca siz karar verirsiniz; bunun için genel bir depolama izni istenmez. Çıktılar, siz kaydedene veya paylaşana kadar uygulamanın geçici önbelleğinde durur.</p>
     <p>PDF'e isteğe bağlı olarak eklediğiniz parola yalnızca o PDF'i oluşturmak için cihazda kullanılır, saklanmaz.</p>
@@ -150,10 +154,10 @@ footer{
     <p>Uygulama, "Resim → PDF" aracında fotoğraf çekebilmeniz ve "Belge Tara" aracını kullanabilmeniz için kamera erişimi kullanır; yalnızca siz bu araçları başlattığınızda. Belge tarama (kenar algılama, kırpma, perspektif düzeltme) Google Play hizmetleri üzerinden sunulan, cihazda çalışan Google ML Kit Belge Tarayıcı ile yapılır. Çekilen görüntüler yalnızca oluşturduğunuz PDF için cihazınızda geçici olarak tutulur; bize gönderilmez.</p>
 
     <h2>3. Cihazda saklanan ayarlar</h2>
-    <p>Cihazınızda yalnızca uygulama dili ve Kullanım Şartları'nı kabul ettiğiniz bilgisi saklanır. Bunlar cihazınızda kalır, bize ulaşmaz.</p>
+    <p>Cihazınızda yalnızca uygulama dili, Kullanım Şartları'nı kabul ettiğiniz bilgisi ve (sorulduysa) kişiselleştirilmiş reklam tercihiniz saklanır. Bunlar cihazınızda kalır, bize ulaşmaz.</p>
 
-    <h2>4. Reklamlar (Google AdMob)</h2>
-    <p>Uygulama, ana ekranda ve araç ekranlarının altında banner reklamlar, bir sonucu kaydederken veya paylaşırken ise tam ekran reklamlar göstermek için Google AdMob kullanır. Reklam göstermek, ölçmek, kötüye kullanımı önlemek ve (izin verdiyseniz) reklamları kişiselleştirmek için AdMob ve ortakları şu verileri toplayıp işleyebilir: <strong>reklam kimliği</strong>, IP adresi, cihaz ve işletim sistemi bilgileri, IP'den türetilen yaklaşık konum, uygulama ve reklam etkileşimleri, tanılama/çökme bilgileri. Bu verileri Google kendi gizlilik politikasına göre işler ve bu bakımdan genellikle bağımsız veri sorumlusudur. Biz bu verilere erişmeyiz ve kendi sunucularımızda saklamayız.</p>
+    <h2 id="reklam">4. Reklamlar (Google AdMob)</h2>
+    <p>Uygulama, ana ekranda ve araç ekranlarının altında banner reklamlar, bir sonucu kaydederken veya paylaşırken ise tam ekran reklamlar göstermek için Google AdMob kullanır. Reklam göstermek, ölçmek, kötüye kullanımı önlemek ve (izin verdiyseniz) reklamları kişiselleştirmek için AdMob ve ortakları şu verileri toplayıp işleyebilir: <strong>reklam kimliği</strong>, IP adresi, cihaz ve işletim sistemi bilgileri, IP'den türetilen yaklaşık konum, uygulama ve reklam etkileşimleri, tanılama/çökme bilgileri. Google bu verileri kendi gizlilik politikasına göre, kendi amaçları için de işleyebilir ve bu işlemelerde ayrı bir veri sorumlusu olabilir. Bu verilerin bağımsız veri sorumlusu Google'dır. Biz bu verilere erişmeyiz ve kendi sunucularımızda saklamayız.</p>
     <ul>
       <li><a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Google'ın iş ortaklarının uygulamalarındaki verileri nasıl kullandığı</a></li>
       <li><a href="https://support.google.com/admob/answer/6128543" rel="noopener">AdMob ve Firebase için veri toplama bilgileri</a></li>
@@ -161,11 +165,26 @@ footer{
     </ul>
     <p><strong>Onay ve tercihleriniz.</strong> Avrupa Ekonomik Alanı, Birleşik Krallık ve yasaların gerektirdiği diğer bölgelerde uygulama, ilk açılışta Google'ın onay aracıyla (UMP) reklam tercihlerinizi sorar; onay vermeden reklam istenmez. Tercihinizi sonradan <strong>Ayarlar → Verileriniz → Reklam gizlilik tercihleri</strong> bölümünden değiştirebilirsiniz. Ayrıca cihazınızın <strong>Ayarlar → Google → Reklamlar</strong> bölümünden reklam kimliğinizi sıfırlayabilir veya kişiselleştirilmiş reklamları kapatabilirsiniz (bu, reklamları kaldırmaz; yalnızca ilgi alanlarınıza göre uyarlanmasını engeller).</p>
 
+    <h3>4.1 Reklam tercihiniz</h3>
+    <p>Google'ın onay aracının gerekmediği bölgelerde (ör. Türkiye) uygulama, ilk açılışta kişiselleştirilmiş reklam tercihinizi sorar; varsayılan <strong>kapalıdır</strong>. Tercihinizi <strong>Ayarlar → Verileriniz → Kişiselleştirilmiş reklamlar</strong> anahtarıyla istediğiniz zaman değiştirebilirsiniz. Kişiselleştirme kapalıyken de reklam gösterilir; bu durumda da reklam kimliği ve IP adresi gibi veriler reklam gösterimi, ölçüm ve kötüye kullanımın önlenmesi için işlenebilir. Ayrıca cihazınızın ayarlarından reklam kimliğinizi sıfırlayabilir veya reklam kişiselleştirmesini kapatabilirsiniz.</p>
+
+    <h3>4.2 Verilerin yurt dışına aktarılması</h3>
+    <p>Reklam verileri, reklam hizmetini sunan Google tarafından (sözleşme tarafı: Google Ireland Limited) Türkiye dışındaki sunucularda işlenebilir. Bu aktarım, 6698 sayılı Kanun'un 9. maddesi uyarınca standart sözleşme ve açık rızanız kapsamında yapılır.</p>
+
+    <h3>4.3 Hukuki sebep</h3>
+    <p>Reklam gösterimi ve ölçümü amacıyla yapılan işleme, 6698 sayılı Kanun'un 5. maddesinin 2. fıkrasındaki şartlardan (f) bendi (ilgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla veri sorumlusunun meşru menfaati) ve kişiselleştirilmiş reklam için ayrıca (a) bendi (açık rıza) dayanır. Kişiselleştirilmiş reklam tercihiniz ayrıca sorulur ve istediğiniz zaman değiştirilebilir.</p>
+
+    <h3>4.4 Saklama süresi</h3>
+    <p>Kendi sunucularımızda sizi tanımlayan veri saklamıyoruz. Google'ın reklam verileri için saklama süreleri Google'ın politikalarına tabidir. Cihazda yalnızca uygulama dili, şartların kabul bilgisi ve reklam tercihiniz saklanır; uygulamayı kaldırdığınızda silinir.</p>
+
+    <h3>4.5 Verilerin toplanma yöntemi</h3>
+    <p>Bu veriler, uygulamadaki Google AdMob bileşeni (SDK) aracılığıyla, reklam istendiğinde ve gösterildiğinde otomatik olarak toplanır; sizden ayrıca form doldurmanız istenmez.</p>
+
     <h2>5. Toplamadığımız veriler</h2>
     <p>Ad, e-posta adresi, telefon numarası, kesin konum, kişi listesi veya hesap bilgisi toplamıyoruz; ödeme işlemi yoktur. Uygulamada reklam SDK'sı dışında bir analitik/izleme SDK'sı bulunmaz.</p>
 
     <h2>6. Çocukların gizliliği</h2>
-    <p>Uygulama çocuklara yönelik değildir ve bilerek 13 yaşından (AEA/Birleşik Krallık'ta 16 yaşından) küçük çocuklardan veri toplamaz.</p>
+    <p>Uygulama 18 yaş ve üzeri kullanıcılar içindir; çocuklara yönelik değildir ve bilerek 18 yaşından küçük kişilerden veri toplamaz.</p>
 
     <h2 id="veri-silme">7. Verilerin silinmesi</h2>
     <p>"Convert from/to PDF Lite" kendi sunucularımızda sizi tanımlayan bir veri saklamaz; bu nedenle silinecek sunucu kaydı yoktur.</p>
@@ -174,6 +193,20 @@ footer{
       <li>Google'ın reklamla ilgili sakladığı verileri için cihazınızdan reklam kimliğinizi sıfırlayabilir veya <a href="https://myaccount.google.com/" rel="noopener">Google Hesabım</a> üzerinden reklam kişiselleştirmesini yönetebilirsiniz.</li>
       <li>Başka bir talebiniz (erişim, düzeltme, silme, itiraz; KVKK / GDPR kapsamında) varsa <a href="mailto:support@okaradeniz.com?subject=Veri%20Talebi%20-%20PDF%20Ara%C3%A7%20Kutusu%20Lite">support@okaradeniz.com</a> adresine yazın; en geç 30 gün içinde yanıtlarız.</li>
     </ol>
+
+    <h3>KVKK m.11 kapsamındaki haklarınız</h3>
+    <ul>
+      <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme,</li>
+      <li>İşlenmişse buna ilişkin bilgi talep etme,</li>
+      <li>İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme,</li>
+      <li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,</li>
+      <li>Eksik veya yanlış işlenmişse düzeltilmesini isteme,</li>
+      <li>Silinmesini veya yok edilmesini isteme ve bunların aktarıldığı üçüncü kişilere bildirilmesini isteme,</li>
+      <li>Münhasıran otomatik sistemlerle analiz edilmesi sonucu aleyhinize bir sonuç doğmasına itiraz etme,</li>
+      <li>Kanuna aykırı işlenmesi nedeniyle zarara uğramanız hâlinde zararın giderilmesini talep etme.</li>
+    </ul>
+    <p>Başvurularınızı <a href="mailto:support@okaradeniz.com">support@okaradeniz.com</a> adresine iletebilirsiniz; başvurular, talebin niteliğine göre en kısa sürede ve en geç 30 gün içinde ücretsiz olarak sonuçlandırılır. Kendi tarafımızda sizi tanımlayabilecek veri tutulmadığından başvurunuz, sizi tanımlamamıza gerek kalmadan, yalnızca bu bilgi doğrultusunda yanıtlanır.</p>
+    <p>Başvurunuzun reddedilmesi, yanıtın yetersiz bulunması veya süresinde yanıt verilmemesi hâllerinde; yanıtı öğrendiğiniz tarihten itibaren 30 gün ve her hâlde başvuru tarihinden itibaren 60 gün içinde Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz.</p>
 
     <h2>8. Bu politikadaki değişiklikler</h2>
     <p>Bu sayfa güncellenebilir; önemli değişikliklerde "son güncelleme" tarihi yenilenir.</p>
@@ -185,7 +218,7 @@ footer{
   <section id="en" hidden>
     <span class="tag">Privacy Policy</span>
     <h1>Convert from/to PDF Lite</h1>
-    <p class="meta">Last updated: October 3, 2026 · Developer: Onur Karadeniz</p>
+    <p class="meta">Last updated: 29 October 2026 · Developer: Onur Karadeniz</p>
     <p class="lede">This page explains what data the "Convert from/to PDF Lite" (PDF Toolbox Lite, package name <code>com.okaradeniz.pdfaraclari.lite</code>) Android app processes, what it does not, and why. Lite is a separate, free, ad-supported app.</p>
 
     <h2>In short</h2>
@@ -195,6 +228,9 @@ footer{
       <p>🔒 No accounts, no sign-up, no subscription. We keep no data that identifies you on our own servers.</p>
     </div>
 
+    <h2>Data controller</h2>
+    <p>Onur Karadeniz — Hürriyet Mahallesi, Şehit Nusret Mandacı Sokak 3/1, Süleymanpaşa / Tekirdağ, Türkiye — <a href="mailto:support@okaradeniz.com">support@okaradeniz.com</a></p>
+
     <h2>1. Your files and content</h2>
     <p>Image-to-PDF, PDF-to-image, Word-to-PDF, PDF-to-Word, and camera document scanning all run entirely on your device, inside the app itself. Your selected files and generated output are never sent over the internet, uploaded to a server, or viewed or stored by us. Where a file is saved (device storage, sharing, etc.) is entirely your choice, and no broad storage permission is requested. Output stays in the app's temporary cache until you save or share it.</p>
     <p>An optional password you add to a PDF is used on the device only to create that PDF and is not stored.</p>
@@ -203,10 +239,10 @@ footer{
     <p>The app uses the camera so you can take a photo in the "Image → PDF" tool and use the "Scan Document" tool, only when you start them. Document scanning (edge detection, cropping, perspective correction) is performed on-device by the Google ML Kit Document Scanner delivered through Google Play services. Captured images are kept temporarily on your device only for the PDF you create; they are never sent to us.</p>
 
     <h2>3. Settings stored on the device</h2>
-    <p>Only the app language and the fact that you accepted the Terms of Use are stored. They stay on your device and never reach us.</p>
+    <p>Only the app language, the fact that you accepted the Terms of Use and (if asked) your personalized-ad preference are stored. They stay on your device and never reach us.</p>
 
-    <h2>4. Advertising (Google AdMob)</h2>
-    <p>The app uses Google AdMob to show banner ads on the home screen and at the bottom of tool screens, and full-screen ads when you save or share a result. To deliver and measure ads, prevent abuse and, if you consent, personalize ads, AdMob and its partners may collect and process: the <strong>advertising ID</strong>, IP address, device and OS information, approximate location derived from IP, app and ad interactions, and diagnostics/crash data. Google processes this data under its own privacy policy and is generally an independent controller for it. We do not have access to this data and do not store it on our servers.</p>
+    <h2 id="ads">4. Advertising (Google AdMob)</h2>
+    <p>The app uses Google AdMob to show banner ads on the home screen and at the bottom of tool screens, and full-screen ads when you save or share a result. To deliver and measure ads, prevent abuse and, if you consent, personalize ads, AdMob and its partners may collect and process: the <strong>advertising ID</strong>, IP address, device and OS information, approximate location derived from IP, app and ad interactions, and diagnostics/crash data. Google may also process this data for its own purposes under its own privacy policy and may act as a separate controller for it. Google is the independent controller of this data. We do not have access to this data and do not store it on our servers.</p>
     <ul>
       <li><a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses data from sites or apps that use its services</a></li>
       <li><a href="https://support.google.com/admob/answer/6128543" rel="noopener">Data collection disclosures for AdMob and Firebase</a></li>
@@ -214,11 +250,26 @@ footer{
     </ul>
     <p><strong>Consent and your choices.</strong> In the European Economic Area, the United Kingdom and other regions where required, the app asks for your ad choices on first launch using Google's consent tool (UMP); no ads are requested before you consent. You can change your choice later under <strong>Settings → Your Data → Ad privacy choices</strong>. On your device you can also reset your advertising ID or turn off personalized ads under <strong>Settings → Google → Ads</strong> (this does not remove ads; it only stops them being tailored to your interests).</p>
 
+    <h3>4.1 Your ad preference</h3>
+    <p>In regions where Google's consent tool is not required (e.g. Turkey), the app asks on first launch whether you want personalized ads; the default is <strong>off</strong>. You can change this any time with <strong>Settings → Your Data → Personalised ads</strong>. With personalization off, ads are still shown; data such as the advertising ID and IP address may still be processed for ad delivery, measurement and abuse prevention. You can also reset your advertising ID or turn off ad personalization in your device settings.</p>
+
+    <h3>4.2 Transfer of data abroad</h3>
+    <p>Ad data may be processed by Google, the ad service provider (contracting party: Google Ireland Limited), on servers outside Turkey. This transfer is made under Article 9 of Law No. 6698 on the basis of a standard contract and your explicit consent.</p>
+
+    <h3>4.3 Legal basis</h3>
+    <p>Processing for ad delivery and measurement relies on one of the conditions in Article 5(2) of Law No. 6698: subparagraph (f) (legitimate interest of the controller, provided fundamental rights are not harmed) and, for personalised ads, additionally subparagraph (a) (explicit consent). Your personalized-ad preference is asked separately and can be changed at any time.</p>
+
+    <h3>4.4 Retention</h3>
+    <p>We store no data that identifies you on our servers. Retention of advertising data by Google is governed by Google's policies. Only the app language, the Terms acceptance and your ad preference are stored on the device and are deleted when you uninstall the app.</p>
+
+    <h3>4.5 How the data is collected</h3>
+    <p>This data is collected automatically through the Google AdMob component (SDK) in the app when ads are requested and shown; you are not asked to fill in any form.</p>
+
     <h2>5. Data we do not collect</h2>
     <p>We do not collect your name, email address, phone number, precise location, contacts, or account information; there are no payments. The app contains no analytics/tracking SDK other than the advertising SDK.</p>
 
     <h2>6. Children's privacy</h2>
-    <p>The app is not directed to children and does not knowingly collect data from children under 13 (16 in the EEA/UK).</p>
+    <p>The app is intended for users aged 18 and over; it is not directed to children and does not knowingly collect data from anyone under 18.</p>
 
     <h2 id="data-deletion">7. Deleting your data</h2>
     <p>"Convert from/to PDF Lite" stores no data that identifies you on our servers, so there is no server-side record to delete.</p>
@@ -227,6 +278,20 @@ footer{
       <li>For advertising data held by Google, you can reset your advertising ID on your device or manage ad personalization through <a href="https://myaccount.google.com/" rel="noopener">your Google Account</a>.</li>
       <li>For any other request (access, correction, deletion, objection under GDPR / KVKK), email <a href="mailto:support@okaradeniz.com?subject=Data%20Request%20-%20PDF%20Toolbox%20Lite">support@okaradeniz.com</a>; we respond within 30 days.</li>
     </ol>
+
+    <h3>Your rights under KVKK Art. 11</h3>
+    <ul>
+      <li>Learn whether your personal data is processed,</li>
+      <li>Request information if it has been processed,</li>
+      <li>Learn the purpose of processing and whether it is used accordingly,</li>
+      <li>Know the third parties to whom data is transferred in Turkey or abroad,</li>
+      <li>Request correction if it is incomplete or inaccurate,</li>
+      <li>Request deletion or destruction and notification of this to third parties to whom data was transferred,</li>
+      <li>Object to a result against you arising from analysis exclusively by automated systems,</li>
+      <li>Claim compensation for damage caused by unlawful processing.</li>
+    </ul>
+    <p>You can send requests to <a href="mailto:support@okaradeniz.com">support@okaradeniz.com</a>; requests are concluded free of charge as soon as possible and within 30 days at the latest. Because we hold no data that could identify you, your request is answered on that basis without any need to identify you.</p>
+    <p>If your request is rejected, the answer is insufficient, or no answer is given in time, you may lodge a complaint with the Personal Data Protection Board within 30 days of learning the answer and in any case within 60 days of your request.</p>
 
     <h2>8. Changes to this policy</h2>
     <p>This page may be updated from time to time; the "last updated" date above will reflect any material change.</p>
